@@ -20,6 +20,9 @@ The frontend service is built using React and uses the [Material-UI](https://mat
 
 The backend service is built using Node.js and Express. The backend service uses the [Cohere](https://cohere.ai/) API to classify the reviews as either positive or negative. The backend service also uses a [MongoDB](https://mongodb.com) database to store the reviews.
 
+## Cohere API
+The Cohere API is used to classify the reviews as either positive or negative. The Cohere API is a Natural Language Processing API that uses a transformer model to classify text. The Cohere API is used in the backend service to classify the reviews as either positive or negative. This classification is then stored in the database along with the review. By classifying the reviews, the user can see the overall sentiment of the reviews for a restaurant.
+
 ## Future Works
 In the future this application is going to be integrated into my families business website. The application will be used to get feedback from customers and see what they can improve on. The application will also be used to display reviews from customers on the website.
 
